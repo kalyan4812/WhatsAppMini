@@ -9,10 +9,22 @@ public class User implements Serializable {
     private String onlineStatus = FieldValue.serverTimestamp().toString();
     private String status = "Hey there I am Using WhatsApp!";
     private String deviceToken = "";
+    private String mobile;
 
 
     public User() {
 
+    }
+
+    public User(String name, String imageUrl, String userId, String thumbImage, String onlineStatus, String status, String deviceToken, String mobile) {
+        this.name = name;
+        this.imageUrl = imageUrl;
+        this.userId = userId;
+        this.thumbImage = thumbImage;
+        this.onlineStatus = onlineStatus;
+        this.status = status;
+        this.deviceToken = deviceToken;
+        this.mobile = mobile;
     }
 
     public User(String name, String imageUrl, String userId, String thumbImage) {
@@ -90,5 +102,13 @@ public class User implements Serializable {
 
     public void setThumbImage(String thumbImage) {
         this.thumbImage = thumbImage;
+    }
+
+    public String getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
     }
 }

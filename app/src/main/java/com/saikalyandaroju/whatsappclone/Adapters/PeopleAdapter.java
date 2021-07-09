@@ -16,9 +16,12 @@ import com.firebase.ui.firestore.paging.FirestorePagingOptions;
 import com.firebase.ui.firestore.paging.LoadingState;
 import com.google.firebase.auth.FirebaseAuth;
 import com.saikalyandaroju.whatsappclone.Activities.ChatActivity;
+import com.saikalyandaroju.whatsappclone.Models.Contacts;
 import com.saikalyandaroju.whatsappclone.R;
 import com.saikalyandaroju.whatsappclone.Models.User;
 import com.squareup.picasso.Picasso;
+
+import java.util.Map;
 
 import static android.content.Context.MODE_PRIVATE;
 
@@ -27,10 +30,13 @@ public class PeopleAdapter extends FirestorePagingAdapter<User, RecyclerView.Vie
     private Context context;
     private String searchQuery = "";
     private SharedPreferences sharedPreferences;
+    Map<String, Contacts> mycontacts;
 
     public PeopleAdapter(@NonNull FirestorePagingOptions<User> options) {
         super(options);
+
     }
+
 
     public void submitData(String s) {
         this.searchQuery = s;
@@ -88,24 +94,33 @@ public class PeopleAdapter extends FirestorePagingAdapter<User, RecyclerView.Vie
     @Override
     public int getItemViewType(int position) {
         User user = getItem(position).toObject(User.class);
-        if (user != null && user.getUserId() != null){
-            Log.i("check",user.getUserId());
-        }
+        Log.i("mobile",user.getMobile());
 
         if (user != null && user.getUserId() != null && user.getUserId().toString().equals(FirebaseAuth.getInstance().getUid().toString())) {
-            Log.i("check","current user");
+           //current user.
             return 1;
         }
-        if (searchQuery.equals("") || searchQuery.equals(" ")) {
+        if(!mycontacts.containsKey(user.getMobile())){
+            Log.i("check","user"+user.getMobile());
+            return 1;
+        }
+        if (searchQuery.equals("") || searchQuery.equals(" ")&& mycontacts.containsKey(user.getMobile())) {
             return 2;
         }
 
 
         if (user != null && !(user.getName().toLowerCase().trim().contains(searchQuery.toLowerCase().trim()))) {
+            Log.i("check","user");
             return 1;
-        } else {
+        }
+        else {
             return 2;
         }
         // return super.getItemViewType(position);
+    }
+
+    public void submitContacts(Map<String, Contacts> mycontacts) {
+        this.mycontacts=mycontacts;
+        Log.i("checks",mycontacts.size()+"");
     }
 }

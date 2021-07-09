@@ -97,7 +97,7 @@ public class SignUpActivity extends AppCompatActivity {
                    /*    downloadurl = BitmapFactory.decodeResource(getResources(), R.drawable.ic_person_black_24dp).toString();
                     }*/
                    User user = new User(uname, downloadurl, FirebaseAuth.getInstance().getUid(), "", "Hey there I am Using WhatsApp!",
-                           sharedPreferences.getString("deviceToken", ""), downloadurl);
+                           sharedPreferences.getString("deviceToken", ""), downloadurl,FirebaseAuth.getInstance().getCurrentUser().getPhoneNumber());
 
                     firebaseFirestore.collection("Users").document(FirebaseAuth.getInstance().getUid().toString()).set(user).
                             addOnSuccessListener(new OnSuccessListener<Void>() {
