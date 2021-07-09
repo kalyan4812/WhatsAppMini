@@ -100,11 +100,11 @@ public class PeopleAdapter extends FirestorePagingAdapter<User, RecyclerView.Vie
            //current user.
             return 1;
         }
-        if(!mycontacts.containsKey(user.getMobile())){
+        if(user!=null && !mycontacts.containsKey(user.getMobile())){
             Log.i("check","user"+user.getMobile());
             return 1;
         }
-        if (searchQuery.equals("") || searchQuery.equals(" ")&& mycontacts.containsKey(user.getMobile())) {
+        if (user!=null && searchQuery.equals("") || searchQuery.equals(" ")&& mycontacts.containsKey(user.getMobile())) {
             return 2;
         }
 
