@@ -50,7 +50,7 @@ The app is developed using native android(Java).App follows clean code startergy
          <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/139858513-332b23e2-9e45-4dfd-8f03-790c1753dc03.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/139858536-00def8d4-ab7a-4057-bc95-6e3920d5d961.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/139854386-ae510cdc-9bc1-47ed-8877-6040692ed070.png" ></td>
+        
         </tr>
 </table>
 
