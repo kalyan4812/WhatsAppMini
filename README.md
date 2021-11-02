@@ -33,26 +33,29 @@ The app is developed using native android(Java).App follows clean code startergy
 
 <table>
          <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/139853508-950cf53d-a189-4bb2-b8af-caa2530908e8.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/139854547-bd84d209-cc8a-4cae-beb2-3a2e61475fe6.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139858273-406667e8-93f6-4eb4-8890-1596ae1d5613.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139858297-43cc6bcc-7dbb-4839-b742-9a7eab604de6.png" ></td>
+           <td><img src = "https://user-images.githubusercontent.com/68738102/139858327-fd2f9898-7814-4e12-8337-22a4ca7329b5.png" ></td>        
          
         </tr>
         <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/139853625-0ae64099-41b6-421a-ae33-2bca8f04ffb6.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/139853745-0a2db077-36b8-4dcc-b9da-9e035d06a8e3.png" ></td>
-           <td><img src = "https://user-images.githubusercontent.com/68738102/139854923-253bdfa6-b20c-4024-96b0-1b6e8d02606e.png" ></td>       
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139858379-63b88807-f960-4acf-8329-73d8c5e6f9f3.png" ></td>
+           <td><img src = "https://user-images.githubusercontent.com/68738102/139858401-599e2e0c-d3f5-4bed-b8af-1e58d828b489.png" ></td>       
         </tr>
      <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/139853882-02dfaf62-c99c-46b2-ae59-7fee6b3000ad.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/139853951-94009dd2-d961-48ef-afef-54d587d0d787.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126889336-2f6852c7-070a-435f-9758-b8c2e8d5a3fc.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139858421-eeaef503-cbf0-41ed-a948-03f969de8b72.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139858460-7c0e422e-e5d0-4959-937f-6c58ac597d02.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139858482-d1cc0740-8991-4763-b5dc-91810733c136.png" ></td>
         </tr>
          <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/139854196-060140d9-1201-4dcc-8a3c-dc5928e62a04.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/139854305-9b649ee6-01b2-4302-ac9b-c2a83c35ef56.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139858513-332b23e2-9e45-4dfd-8f03-790c1753dc03.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139858536-00def8d4-ab7a-4057-bc95-6e3920d5d961.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/139854386-ae510cdc-9bc1-47ed-8877-6040692ed070.png" ></td>
         </tr>
 </table>
+
+
 
 
 
