@@ -35,7 +35,7 @@ The app is developed using native android(Java).App follows clean code startergy
          <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/139853508-950cf53d-a189-4bb2-b8af-caa2530908e8.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/139854547-bd84d209-cc8a-4cae-beb2-3a2e61475fe6.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/139854667-fffb5605-7b4e-4ece-818e-e3f794e21c25.png" ></td>
+         
         </tr>
         <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/139853625-0ae64099-41b6-421a-ae33-2bca8f04ffb6.png" ></td>
