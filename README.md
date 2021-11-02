@@ -38,7 +38,7 @@ The app is developed using native android(Java).App follows clean code startergy
            <td><img src = "https://user-images.githubusercontent.com/68738102/139858327-fd2f9898-7814-4e12-8337-22a4ca7329b5.png" ></td>        
         </tr>
         <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/139853625-0ae64099-41b6-421a-ae33-2bca8f04ffb6.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139859609-b0cd58cb-c06c-43bb-868f-323f3b421197.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/139858379-63b88807-f960-4acf-8329-73d8c5e6f9f3.png" ></td>
            <td><img src = "https://user-images.githubusercontent.com/68738102/139858401-599e2e0c-d3f5-4bed-b8af-1e58d828b489.png" ></td>       
         </tr>
@@ -53,6 +53,7 @@ The app is developed using native android(Java).App follows clean code startergy
           <td><img src = "https://user-images.githubusercontent.com/68738102/139854386-ae510cdc-9bc1-47ed-8877-6040692ed070.png" ></td>
         </tr>
 </table>
+
 
 
 
