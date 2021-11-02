@@ -20,26 +20,44 @@ WhatsAppMini is an android application ,its kind of partial clone to normal what
  - [Country code picker](https://github.com/joielechong/CountryCodePicker)
  
 
-The app is developed using native android(Java).App follows clean code startergy and  caching .
+The app is developed using native android(Java).App follows clean code startergy.
 
 ### App ScreenShots 
 
-* You can get the latest trending news on the news page,you can click on the article to read the complete news and also you can save them if you like the article.
-* You can view the saved articles on the saved page,you can delete your saved articles anytime by swiping.
-* Along with recommended articles ,you can also search for articles you want on the search page and you can read them.
+* The app is  a kind of clone to whatsapp,it has some of features offered by whatsapp like chat,audiocall,videocall etc.
+* App uses firebase to store user data,chats and it uses otp for authentication.
+* Audio call and video call is implemented using the JITSI Meet SDK.
+* App provides serach bar to serach among the chats.
+* There is profile page ,where you can modify your Display picture(DP),name.
+* Chat box is supported with emoji,and user can copy paste messages in chat box.
 
 <table>
+         <tr>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139853508-950cf53d-a189-4bb2-b8af-caa2530908e8.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139854547-bd84d209-cc8a-4cae-beb2-3a2e61475fe6.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139854667-fffb5605-7b4e-4ece-818e-e3f794e21c25.png" ></td>
+        </tr>
         <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126889268-393e3866-7c74-4a67-a3f4-bf65dbb1602d.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126889280-4287b55c-b26d-4b25-96bb-ce1c3cd8e23c.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126889297-9c7a2052-09f4-41b7-b0b6-68cb377585f5.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139853625-0ae64099-41b6-421a-ae33-2bca8f04ffb6.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139853745-0a2db077-36b8-4dcc-b9da-9e035d06a8e3.png" ></td>
+           <td><img src = "https://user-images.githubusercontent.com/68738102/139854923-253bdfa6-b20c-4024-96b0-1b6e8d02606e.png" ></td>       
         </tr>
      <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126889309-2cfb2576-5aa6-4a10-8f99-76e2aacdb9fa.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126889358-c150b41d-ef11-44bb-a94a-425abf6f8cbb.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139853882-02dfaf62-c99c-46b2-ae59-7fee6b3000ad.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139853951-94009dd2-d961-48ef-afef-54d587d0d787.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/126889336-2f6852c7-070a-435f-9758-b8c2e8d5a3fc.png" ></td>
         </tr>
+         <tr>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139854196-060140d9-1201-4dcc-8a3c-dc5928e62a04.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139854305-9b649ee6-01b2-4302-ac9b-c2a83c35ef56.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/139854386-ae510cdc-9bc1-47ed-8877-6040692ed070.png" ></td>
+        </tr>
 </table>
+
+
+
+
+
 
 
 
