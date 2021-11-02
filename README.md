@@ -31,8 +31,8 @@ The app is developed using native android(Java).App follows clean code startergy
 * There is profile page ,where you can modify your Display picture(DP),name.
 * Chat box is supported with emoji,and user can copy paste messages in chat box.
 
-<table>
-         <tr>
+   <table>
+          <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/139858273-406667e8-93f6-4eb4-8890-1596ae1d5613.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/139858297-43cc6bcc-7dbb-4839-b742-9a7eab604de6.png" ></td>
            <td><img src = "https://user-images.githubusercontent.com/68738102/139858327-fd2f9898-7814-4e12-8337-22a4ca7329b5.png" ></td>        
@@ -50,7 +50,6 @@ The app is developed using native android(Java).App follows clean code startergy
          <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/139858513-332b23e2-9e45-4dfd-8f03-790c1753dc03.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/139858536-00def8d4-ab7a-4057-bc95-6e3920d5d961.png" ></td>
-        
         </tr>
 </table>
 
